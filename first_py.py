@@ -27,7 +27,7 @@ def search_agent():
 
   app = create_react_agent(llm, tools)
 
-  print("AGENT READY 100%!")
+  print("Agent ready")
 
   result = app.invoke({
       "messages": [("human", "LangChain latest features?")]
